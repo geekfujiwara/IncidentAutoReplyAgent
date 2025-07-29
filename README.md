@@ -1,7 +1,7 @@
-# 📘 Copilot Studio Solution: PC不具合対応ワークフロー
+# 📘 Copilot Studio Solution: PC不具合対応エージェント
 
-このリポジトリは、https://learn.microsoft.com/power-platform/ の **Copilot Studio** を用いて構築した「PC不具合対応ワークフロー」のソリューションです。  
-ユーザーからの不具合報告を受け付け、保証期間の判定、対策案の提示、対応履歴の記録までを自動化するエージェント群とツールを実装しています。
+**Copilot Studio** を用いて構築した「PC不具合対応エージェント」のソリューションです。  
+ユーザーからの不具合報告をメールで受け付け、保証期間の判定、対策案の提示、対応履歴の記録までを自動化するエージェント群とツールを実装しています。
 
 <img width="1980" height="1112" alt="image" src="https://github.com/user-attachments/assets/acb60415-1e47-44de-bef6-53f2c44db063" />
 
