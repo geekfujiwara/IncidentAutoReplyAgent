@@ -73,7 +73,7 @@ sequenceDiagram
 
 ## 🚀 導入方法
 
-1. https://github.com/your-org/copilotstudio-pc-issue-workflow/releases から最新のソリューションファイル (.zip) をダウンロードします。
+1. [このリポジトリのリリース](https://github.com/geekfujiwara/IncidentAutoReplyAgent/releases)から最新のソリューションファイル (.zip) をダウンロードします。
 
 2. https://make.powerapps.com/ にアクセスし、Power Platform 環境にソリューションをインポートします。
    - 左側メニューの **「ソリューション」** を選択し、**「インポート」** をクリックします。
@@ -82,7 +82,7 @@ sequenceDiagram
 3. インポート後、**すべてのカスタマイズを公開** します。
 <img width="712" height="157" alt="image" src="https://github.com/user-attachments/assets/1ddab924-356a-4ec0-847d-4a1caa4459dc" />
 
-4. エージェントの接続情報を更新します。設定からすべて接続して状態を接続済みにします。
+4. 親エージェントであるPC不具合対応エージェントを開きます。その接続情報を更新します。設定からすべて接続して状態を接続済みにします。
 <img width="1806" height="485" alt="image" src="https://github.com/user-attachments/assets/4c21e55c-450a-4c39-bb86-71ac4447a742" />
 
 
