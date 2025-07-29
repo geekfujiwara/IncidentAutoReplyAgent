@@ -1,12 +1,24 @@
 # 📘 Copilot Studio Solution: PC不具合対応エージェント
 
 **Copilot Studio** を用いて構築した「PC不具合対応エージェント」のソリューションです。  
-ユーザーからの不具合報告をメールで受け付け、保証期間の判定、対策案の提示、対応履歴の記録までを自動化するエージェント群とツールを実装しています。
+ユーザーからの不具合報告をメールで受け付け、保証期間の判定、対策案の提示、対応履歴の記録までを自動化するエージェント群とツール
 
-<img width="1980" height="1112" alt="image" src="https://github.com/user-attachments/assets/acb60415-1e47-44de-bef6-53f2c44db063" />
+## PC不具合対応エージェント
+PC不具合対応エージェントは、Surface の不具合対応を題材とした以下の作業を代行する、サポート担当者向けのAIエージェントです。
+
+💬 PC製品の不具合報告メールに対して、自動的に起動
+
+🔍 CRMから販売日を取得し、社内マニュアルに基づき保証判定
+
+✉️ ナレッジに基づき対策方法、またはサポート契約のご提案メール返信の実行
+
+📝 対応履歴の登録
+
+---
+
+## 動画
 
 https://github.com/user-attachments/assets/b8d7bdc7-f29d-4815-a419-877efc1d83e5
-
 
 ---
 
@@ -14,10 +26,12 @@ https://github.com/user-attachments/assets/b8d7bdc7-f29d-4815-a419-877efc1d83e5
 
 本ソリューションは以下の **親エージェント** と **子エージェント**、および **ツール** で構成されています。
 
-<img width="358" height="234" alt="image" src="https://github.com/user-attachments/assets/a6c475a0-0898-4045-9234-df7491aa9f8e" />
+
+<img width="1980" height="1112" alt="image" src="https://github.com/user-attachments/assets/acb60415-1e47-44de-bef6-53f2c44db063" />
 
 
 ### 👑 親エージェント
+<img width="358" height="234" alt="image" src="https://github.com/user-attachments/assets/a6c475a0-0898-4045-9234-df7491aa9f8e" />
 
 - **PC不具合対応エージェント**  
   ユーザーからの不具合報告に基づき、全体のワークフローを統括し、適切な子エージェントやツールを呼び出して対策案を検討します。
@@ -43,7 +57,7 @@ https://github.com/user-attachments/assets/b8d7bdc7-f29d-4815-a419-877efc1d83e5
 
 ---
 
-## 📊 シーケンス図
+## 📊 処理の流れ
 
 ```mermaid
 sequenceDiagram
